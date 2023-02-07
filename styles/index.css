@@ -10,10 +10,11 @@
 
 .navigation {
     margin-top: 20px;
+    margin-bottom: 30px;
 
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav-link {
@@ -98,19 +99,15 @@ border-radius: 4px;
     height: 53px;
     background: #FF9900;
     border-radius: 4px;
+
+    margin-right: 30px;
 }
 
 .link__watch-video__triangle {
-    width: 20px;
-    height: 17px;
-
-    background: #FF9900;
-    border-radius: 1.125px;
-    transform: rotate(90deg);
+    transform: translateY(4px);
 }
 
-.link__watch-video {
-    
+.link__watch-video { 
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
