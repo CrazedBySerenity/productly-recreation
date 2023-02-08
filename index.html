@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
     <title>Productly</title>
 </head>
 <body>
-    <section class="navigation">
+    <nav class="navigation">
         <img alt="The productly logo" 
         src="images/logo.svg" class="logo">
         <div class="header-links">
@@ -23,7 +23,7 @@
             <button class="btn__sign-in">Sign in</button>
             <button class="btn__sign-up">Sign up</button>
         </div>
-    </section>
+    </nav>
     <div class="container">
         <section class="section section__container">
             <div>
@@ -49,7 +49,40 @@
         </section>
 
         <section class="section section__features">
-            
+            <h2 class="section__header features__header">
+                We design tools to unveil <br> your superpowers
+            </h2>
+
+            <div class="section__examples">
+                <div class="examples__element">
+                    <img src="images/icon1.png" alt="a mouse pointer" class="example-icon">
+                    <p class="examples__title">First click tests</p>
+                    <p class="paragraph">While most people enjoy casino gambling,</p>
+                </div>
+
+                <div class="examples__element">
+                    <img src="images/icon2.png" alt="a mouse pointer" class="example-icon">
+                    <p class="examples__title">Design surveys</p>
+                    <p class="paragraph">Sports betting, lottery and bingo playing for the fun</p>
+                </div>
+
+                <div class="examples__element">
+                    <img src="images/icon3.png" alt="a mouse pointer" class="example-icon">
+                    <p class="examples__title">Preference tests</p>
+                    <p class="paragraph">The Myspace page defines the individual.</p>
+                </div>
+
+                <div class="examples__element">
+                    <img src="images/icon4.png" alt="a mouse pointer" class="example-icon">
+                    <p class="examples__title">Five second tests</p>
+                    <p class="paragraph">Personal choices and the overall personality of the person. </p>
+                </div>
+            </div>
+            <btn class="btn__sign-up-now">SIGN UP NOW</btn>
+            <div>
+
+            </div>
+
         </section>
 
         <section class="section section__container section__who-is-it-for">
@@ -78,10 +111,10 @@
                     your business that won’t cost you more money, 
                 </p>
             </div>
-            <img src="images/Designers.png" alt="A design professional">
+            <img src="images/Designers.png" alt="A design professional" class="img__designer">
         </section>
 
-        <section class="section section__container section__who-is-it-for section__manager">
+        <section class="section section__container section__manager">
             <div class="who-is-it-for__text-list">
                 <p class="paragraph">Easier decision making for</p>
                 <h2 class="section__header">Product Managers</h2>
@@ -112,10 +145,10 @@
                     </p>
                 </div>
             </div>
-            <img src="images/Managers.png" alt="A product manager">
+            <img src="images/Managers.png" alt="A product manager" class="img__manager">
         </section>
 
-        <section class="section section__container section__who-is-it-for">
+        <section class="section section__container">
             <div class="who-is-it-for__text-list">
                 <p class="paragraph">Effortless Validation for</p>
                 <h2 class="section__header">Design Professionals</h2>
@@ -141,8 +174,15 @@
                     your business that won’t cost you more money, 
                 </p>
             </div>
-            <img src="images/Marketers.png" alt="A marketer">
+            <img src="images/Marketers.png" alt="A marketer" class="img__marketer">
         </section>
+        <footer class="footer">
+            <img src="images/Logo.svg" alt="The productly logo">
+            <div class="footer__list">
+
+            </div>
+        </footer>
     </div> 
+
 </body>
 </html>
