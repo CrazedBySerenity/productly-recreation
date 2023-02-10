@@ -180,13 +180,16 @@
         </section>
 
         <section class="section section__container section__form">
+            <h2 class="section__header">Contact us:</h2>
             <form action="" class="form__container">
-                <input type="text" class="form__input__name">
-                <input type="email" class="form__input__email" placeholder="Your email">
-                <input type="text" class="form__input__" placeholder="">
-                <textarea cols="3" rows="4"></textarea>
-                <button type="submit">Send message</button>
-                <div class="test-square"></div>
+                <label for="name" class="paragraph__title form__label">Full name:</label>
+                <input type="text" class="form__input__name paragraph form__input" id="name" required>
+                <label for="email" class="paragraph__title form__label">Email:</label>
+                <input type="email" class="form__input__email paragraph form__input" id="email" placeholder="" required>
+                <label for="subject" class="paragraph__title form__label">Subject:</label>
+                <input type="text" class="form__input__subject paragraph form__input" id="subject" placeholder="">
+                <textarea class="form__input__message paragraph" rows="5" placeholder="Please write your message here..." minlength="12"></textarea>
+                <button type="submit" class="btn__form__submit">Send message</button>
             </form>
         </section>
 
@@ -209,7 +212,7 @@
                 </ul>
             </nav>
             <div class="footer__sign-up-form">
-                <div class="footer_form-box"></div>
+                <input class="footer_form-box">
                 <btn class="btn__sign-up-footer">Sign up Now</btn>
             </div>
         </footer>

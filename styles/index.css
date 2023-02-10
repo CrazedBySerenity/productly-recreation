@@ -288,7 +288,34 @@ ul li a{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
 
+.form__label {
+    margin: 0px;
+}
+
+.form__input {
+    margin-bottom: 5px;
+}
+
+.btn__form__submit {
+    display: inline-block;
+    min-width: 160px;
+    min-height: 39px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #FF9900;
+    border-radius: 4px;
+
+    margin-top: 0px;
 }
 
 .footer {
@@ -300,7 +327,6 @@ ul li a{
     justify-content: space-between;
 
     margin-bottom: 83px;
-    /* margin-top: 146px; */
 }
 
 
@@ -349,6 +375,9 @@ ul li a{
 
 .footer__sign-up-form {
     align-self: flex-end;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .footer_form-box {
@@ -359,10 +388,4 @@ ul li a{
     border-style: solid;
     border-color: #BCD0E5;
     border-radius: 4px;
-}
-
-.test-square {
-    min-width: 100px;
-    min-height: 100px;
-    background: blue;
 }
