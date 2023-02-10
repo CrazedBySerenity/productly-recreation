@@ -17,10 +17,12 @@
             <img alt="The productly logo" 
             src="images/logo.svg" class="logo">
             <div class="header-links">
-                <a class="nav-link">Product</a>
-                <a class="nav-link">Customers</a>
-                <a class="nav-link">Pricing</a>
-                <a class="nav-link">Resources</a>
+                <ul>
+                <li><a class="nav-link" href="#">Product</a></li>
+                <li><a class="nav-link" href="#">Customers</a></li>
+                <li><a class="nav-link" href="#">Pricing</a></li>   
+                <li><a class="nav-link" href="#">Resources</a></li>
+                </ul>
                 <button class="btn__sign-in">Sign in</button>
                 <button class="btn__sign-up">Sign up</button>
             </div>
@@ -176,19 +178,35 @@
             </div>
             <img src="images/Marketers.png" alt="A marketer" class="img__marketer">
         </section>
+
+        <section class="section section__container section__form">
+            <form action="" class="form__container">
+                <input type="text" class="form__input__name">
+                <input type="email" class="form__input__email" placeholder="Your email">
+                <input type="text" class="form__input__" placeholder="">
+                <textarea cols="3" rows="4"></textarea>
+                <button type="submit">Send message</button>
+                <div class="test-square"></div>
+            </form>
+        </section>
+
         <footer class="footer">
             <img src="images/Logo.svg" alt="The productly logo" class="footer__logo">
             <nav class="footer__list">
-                <p class="footer__paragraph">About us</p>
-                <p class="footer__paragraph">Blog</p>
-                <p class="footer__paragraph">Contact</p>
-                <p class="footer__paragraph">FAQ</p>
+                <ul class="footer__list__ul-wrapper">
+                    <li><a class="footer__paragraph" href="#">About us</a></li>
+                    <li><a class="footer__paragraph" href="#">Blog</a></li>
+                    <li><a class="footer__paragraph" href="#">Contact</a></li>
+                    <li><a class="footer__paragraph" href="#">FAQ</a></li>
+                </ul>
             </nav>
             <nav class="footer__list">
-                <p class="footer__paragraph">Discaimer</p>
-                <p class="footer__paragraph">Financing</p>
-                <p class="footer__paragraph">Privacy Policy</p>
-                <p class="footer__paragraph">Terms of Service</p>
+                <ul class="footer__list__ul-wrapper">
+                    <li><a class="footer__paragraph" href="#">Disclaimer</a></li>
+                    <li><a class="footer__paragraph" href="#">Financing</a></li>
+                    <li><a class="footer__paragraph" href="#">Privacy Policy</a></li>
+                    <li><a class="footer__paragraph" href="#">Terms of Service</a></li>
+                </ul>
             </nav>
             <div class="footer__sign-up-form">
                 <div class="footer_form-box"></div>
